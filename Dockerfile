@@ -5,6 +5,6 @@ RUN echo 'do' >> /infinite.sh
 RUN echo ' sleep 5' >> /infinite.sh
 RUN echo 'done' >> /infinite.sh
 RUN chmod +x /infinite.sh
-RUN touch newtestfile
+RUN touch newtestfile2
 CMD ["./infinite.sh"]
 
